@@ -1,0 +1,27 @@
+!founder=Anon
+!maxUserCount=10
+!title=gra/v/iti wall
+!version=dp:4.21.2
+!writerversion=2.1.20
+
+0 owner users=1
+1 resize bottom=2000 right=2000
+1 background color=#ffffff
+1 defaultlayer id=0x0102
+1 newlayer id=0x0102 title=Sketch
+1 layerattr blend=1 layer=0x0102 opacity=100.00
+1 newlayer id=0x0100 title=Line
+1 layerattr blend=1 layer=0x0100 opacity=100.00
+1 newlayer id=0x0101 {
+	title=Extra #1
+}
+1 layerattr blend=1 layer=0x0101 opacity=100.00
+1 newlayer id=0x0103 {
+	title=Extra # 2
+}
+1 layerattr blend=1 layer=0x0103 opacity=100.00
+1 newlayer id=0x0104 title=MOTD
+1 layerattr blend=1 flags=fixed layer=0x0104 opacity=100.00
+1 layeracl id=0x0104 locked=true tier=guest
+1 featureaccess createannotation=guest laser=guest ownlayers=guest putimage=guest regionmove=guest undo=guest
+1 useracl
