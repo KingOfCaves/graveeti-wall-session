@@ -1,27 +1,29 @@
-!founder=Anon
-!maxUserCount=10
-!title=gra/v/iti wall
-!version=dp:4.21.2
-!writerversion=2.1.20
-
-0 owner users=1
-1 resize bottom=2000 right=2000
-1 background color=#ffffff
-1 defaultlayer id=0x0102
-1 newlayer id=0x0102 title=Sketch
-1 layerattr blend=1 layer=0x0102 opacity=100.00
-1 newlayer id=0x0100 title=Line
-1 layerattr blend=1 layer=0x0100 opacity=100.00
-1 newlayer id=0x0101 {
-	title=Extra #1
+!version=dp:4.24.0
+!writer=drawpile
+!writerversion=2.2.0-beta.8
+!type=template
+0 featureaccess feature_tiers=3,3,3,3,3,3,3,3,3,3,3,3
+0 undodepth depth=99
+0 resize bottom=1600 left=0 right=3200 top=0
+0 background image=AABAAHja7cExAQAAAMKg/qlnDB+gAAAAAAAAAAAAAAAAAAAAgLcBsNnDsg==
+0 layertreecreate fill=#00000000 id=0x0106 source=0x0000 target=0x0000 title=Sketch
+0 layerattr blend=svg:src-over id=0x0106 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0105 source=0x0000 target=0x0000 title=Line
+0 layerattr blend=svg:src-over id=0x0105 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0104 source=0x0000 target=0x0000 {
+    title=Extra #1
 }
-1 layerattr blend=1 layer=0x0101 opacity=100.00
-1 newlayer id=0x0103 {
-	title=Extra # 2
+0 layerattr blend=svg:src-over id=0x0104 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0103 source=0x0000 target=0x0000 {
+    title=Extra # 2
 }
-1 layerattr blend=1 layer=0x0103 opacity=100.00
-1 newlayer id=0x0104 title=MOTD
-1 layerattr blend=1 flags=fixed layer=0x0104 opacity=100.00
-1 layeracl id=0x0104 locked=true tier=guest
-1 featureaccess createannotation=guest laser=guest ownlayers=guest putimage=guest regionmove=guest undo=guest
-1 useracl
+0 layerattr blend=svg:src-over id=0x0103 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0102 source=0x0000 target=0x0000 title=TEMP
+0 layerattr blend=svg:src-over id=0x0102 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0101 source=0x0000 target=0x0000 title=MOTD
+0 layerattr blend=svg:src-over id=0x0101 opacity=255 sublayer=0
+0 layertreecreate fill=#00000000 id=0x0100 source=0x0000 target=0x0000 {
+    title=MOTD #2
+}
+0 layerattr blend=svg:src-over id=0x0100 opacity=255 sublayer=0
+1 featureaccess feature_tiers=3,3,0,0,0,3,3,3,3,0,3,3
